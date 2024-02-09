@@ -42,7 +42,6 @@
 		6E47A2F82B76024500794545 = {
 			isa = PBXGroup;
 			children = (
-				6E47A3182B76030F00794545 /* AnimatedView.swift */,
 				6E47A3032B76024500794545 /* SynchAnimation */,
 				6E47A3022B76024500794545 /* Products */,
 			);
@@ -62,6 +61,7 @@
 				6E47A3042B76024500794545 /* AppDelegate.swift */,
 				6E47A3062B76024500794545 /* SceneDelegate.swift */,
 				6E47A3082B76024500794545 /* ViewController.swift */,
+				6E47A3182B76030F00794545 /* AnimatedView.swift */,
 				6E47A30A2B76024500794545 /* Main.storyboard */,
 				6E47A30D2B76024A00794545 /* Assets.xcassets */,
 				6E47A30F2B76024A00794545 /* LaunchScreen.storyboard */,
