@@ -55,7 +55,9 @@ extension ViewController {
  
     private func setupSlider() {
         slider.addAction(
-            UIAction { [weak self] _ in self?.didSliderTouchEnd() },
+            UIAction {
+                [weak self] _ in self?.didSliderTouchEnd()
+            },
             for: .touchUpInside
         )
         slider.addAction(
@@ -88,6 +90,7 @@ extension ViewController {
             guard let self else {
                 return
             }
+            
             let xPath = self.calculateAreaPathValue()
             let scaleFactor: CGFloat = 1.5
             self.animatedView.frame.origin.x = xPath
